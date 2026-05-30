@@ -1,12 +1,25 @@
 body {
-  font-size: 200;
+  font-size: 20px;
   background-color: black;
   color: white;
 }
 
-.parent-div {
-  flex: flex;
+.buttons-div {
+  /* display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: red;
+} */
+}
+
+.firstRow,
+.secondRow,
+.thirdRow,
+.fourthRow,
+.fifthRow {
+  display: flex;
   flex-direction: row;
   gap: 10px;
   color: red;
+  padding: 10px;
 }
