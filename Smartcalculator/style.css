@@ -1,0 +1,12 @@
+body {
+  font-size: 200;
+  background-color: black;
+  color: white;
+}
+
+.parent-div {
+  flex: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: red;
+}
