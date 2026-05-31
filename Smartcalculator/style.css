@@ -23,3 +23,15 @@ body {
   color: red;
   padding: 10px;
 }
+
+.sqrt,
+.c_class {
+  display: inline-block;
+  padding: 1px 1px;
+  background-color: grey;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+}
