@@ -25,7 +25,10 @@ body {
 }
 
 .sqrt,
-.c_class {
+.c_class,
+.ce_class,
+.bksp_class,
+.divide_class {
   display: inline-block;
   padding: 1px 1px;
   background-color: grey;
