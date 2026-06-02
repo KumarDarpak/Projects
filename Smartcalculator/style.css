@@ -28,11 +28,31 @@ body {
 .c_class,
 .ce_class,
 .bksp_class,
-.divide_class {
+.divide_class,
+.perc_class,
+.num_7,
+.num_8,
+.num_9,
+.multi_class,
+.x_div,
+.num_4,
+.num_5,
+.num_6,
+.subt_class,
+.x_sqr,
+.num_1,
+.num_2,
+.num_3,
+.addi_class,
+.save_con,
+.plus_min_class,
+.num_0,
+.decim_class,
+.eq_class {
   display: inline-block;
   padding: 1px 1px;
-  background-color: grey;
-  color: #ffffff;
+  background-color: yellow;
+  color: black;
   border-radius: 4px;
   cursor: pointer;
   user-select: none;
