@@ -2,11 +2,14 @@
 
 const header = document.querySelector("h1");
 const c_classBttn = document.querySelector(".c_class");
+const ce_classBttn = document.querySelector(".ce_class");
 
 c_classBttn.addEventListener("click", () => {
   header.innerText = "Cleared the Screen";
 });
-
+ce_classBttn.addEventListener("click", () => {
+  header.innerText = "ce-Cleared";
+});
 const bksp_classBttn = document.querySelector(".bksp_class");
 
 bksp_classBttn.addEventListener("click", () => {
