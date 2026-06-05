@@ -1,15 +1,9 @@
-"""
-input 
-user want to start 
-then we will
 
-"""
-
-print("Welcome to CLI_CAL")
+print("Welcome to CLI Calculator \t")
 str = input('start/end \t')
 while (str != 'end'):
     if (str == 'end'):
-        print("Thank you for using the CLI_CAL \t")
+        print("Thank you for using the CLI Calculator \t")
     elif (str == 'start'):
         print("Which operation you want ? choose the number \t")
         for i in range(5):
@@ -79,4 +73,4 @@ while (str != 'end'):
     else:
         print("Please input start or end \t")
     str = input('start/end \t')
-print('\n \nThank you for using the CLI CALCULATOR :-) BYE BYE ]\n')
+print('\n \nThank you for using the CLI Calculator :-) BYE BYE ]\n')
