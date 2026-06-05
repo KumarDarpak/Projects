@@ -37,7 +37,7 @@ while (str != 'end'):
                 addVal = int(input('Which number you want to add \t'))
                 finalVal += addVal
                 print(f"At {i + 1} {finalVal}")
-            print(f"Your Final submition after Addition {addSum}")
+            print(f"Your Final submition after Addition {finalVal} \t")
             break
 
         if inpOper == 2:
@@ -77,5 +77,6 @@ while (str != 'end'):
         else:
             print("Choose the number between 1 <-> 5 \t")
     else:
-        print('start\nend')
-print('\n \nThank you for using the CLI CALCULATOR :-) BYE BYE ')
+        print("Please input start or end \t")
+    str = input('start/end \t')
+print('\n \nThank you for using the CLI CALCULATOR :-) BYE BYE ]\n')
