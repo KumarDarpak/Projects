@@ -1,6 +1,7 @@
 // let screenVal = document.getElementById("headingID");
 
 const header = document.querySelector("h1");
+
 const c_classBttn = document.querySelector(".c_class");
 const ce_classBttn = document.querySelector(".ce_class");
 
@@ -13,7 +14,7 @@ ce_classBttn.addEventListener("click", () => {
 const bksp_classBttn = document.querySelector(".bksp_class");
 
 bksp_classBttn.addEventListener("click", () => {
-  if (header.innerText.length > 0) {
+  if (header.innerText.length > 0 && tpypeof(header.innerText === number)) {
     header.innerText = header.innerText.slice(0, -1);
   }
 });
