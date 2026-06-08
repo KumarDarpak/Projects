@@ -32,17 +32,12 @@ if inp == 'y' or inp == "YES" or inp == "Y" or inp == "yes" or inp == "Yes":
             new_path = file.parent / file_name
             
             while new_path.exists():
-
                 file_name = input((f"{file_name} already Exists please choose another name (N for Skip: )\t"))
-
                 if file_name.strip().upper() == 'N' or file_name.strip().lower() == 'n':
                     break
-
                 if not file_name.endswith('.txt'):
                     file_name += '.txt'
-
                 new_path = file.parent / file_name
-
             file.rename(new_path)
         else:
             print("Skipped! ")
