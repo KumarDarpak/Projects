@@ -1,0 +1,35 @@
+.mainDiv {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  font-size: larger;
+  width: 100%;
+  background-color: grey;
+}
+
+.NameDiv {
+  display: flex;
+  background-color: pink;
+}
+.fullNameDiv {
+  /* background-color: Yellow; */
+  width: 50%;
+  text-align: left;
+}
+.currentRoleDiv {
+  /* background-color: pink; */
+  width: 50%;
+  text-align: right;
+}
+
+.connectivityDiv {
+  flex-direction: column;
+  background-color: red;
+  gap: 10px;
+}
+.linkedinDiv,
+.gmailDiv,
+.phoneDiv {
+  flex: 1;
+  box-sizing: border-box;
+}
