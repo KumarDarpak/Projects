@@ -32,4 +32,6 @@
 .phoneDiv {
   flex: 1;
   box-sizing: border-box;
+  width: 33.3%;
+  flex-direction: row;
 }
